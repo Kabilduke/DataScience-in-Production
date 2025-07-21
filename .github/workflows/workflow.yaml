@@ -23,7 +23,7 @@ jobs:
         python-version: '3.12'
 
     - name: Install poetry
-      uses: snok/install-poetry@v2
+      uses: snok/install-poetry@v1
 
     - name: Install project dependencies
       run: poetry run make install
